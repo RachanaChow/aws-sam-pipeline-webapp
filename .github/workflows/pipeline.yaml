@@ -17,7 +17,7 @@ env:
   TESTING_PIPELINE_EXECUTION_ROLE: arn:aws:iam::339713092921:role/aws-sam-cli-managed-dev-pipel-PipelineExecutionRole-2Pxc9vkuyzSZ
   TESTING_CLOUDFORMATION_EXECUTION_ROLE: arn:aws:iam::339713092921:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionRo-mrybAXhjmlL8
   TESTING_ARTIFACTS_BUCKET: aws-sam-cli-managed-dev-pipeline-r-artifactsbucket-wztczipae4jl
-  # If there are functions with "Image" PackageType in your template,
+  # If there are functions with "Image"  PackageType in your template,
   # uncomment the line below and add "--image-repository ${TESTING_IMAGE_REPOSITORY}" to
   # testing "sam package" and "sam deploy" commands.
   # TESTING_IMAGE_REPOSITORY = '0123456789.dkr.ecr.region.amazonaws.com/repository-name'
